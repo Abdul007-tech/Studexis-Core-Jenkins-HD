@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t studexis-core .'
+        sh 'docker build -t abdul-core .'
       }
     }
     stage('Test') {
