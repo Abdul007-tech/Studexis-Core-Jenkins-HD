@@ -5,7 +5,7 @@ tasks = []
 
 @app.route("/health", methods=["GET"])
 def health_check():
-    return jsonify({"status": "ok"}), 200
+    return jsonify({"status": "Ok"}), 200
 
 @app.route("/tasks", methods=["GET", "POST"])
 def task_handler():
